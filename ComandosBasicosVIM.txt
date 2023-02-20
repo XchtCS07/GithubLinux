@@ -1,0 +1,41 @@
+Comandos Basicos VIM
+ESC	Abandonar el modo de inclusión de texto para volver
+al modo de comandos; también se usa para cancelar
+comandos. (Usarlo en caso de duda)
+Cntl-F	Avanzar una pagina hacia adelante
+Cntl-B	Avanzar una pagina hacia atrás
+Cntl-L	Refrescar la pantalla
+G	Cursor al final del fichero
+1G	Cursor al principio del fichero
+$	Cursor al final de la linea
+0 (cero)	Cursor al principio de la linea
+a	Añadir texto a continuacion del cursor [TEXTO]
+i	Insertar texto en la posicion del cursor [TEXTO]
+A	Añadir texto al final de la linea [TEXTO]
+I	Insertar texto al principio de la linea [TEXTO]
+o	Añadir una linea debajo de la del cursor [TEXTO]
+O	Añadir una linea encima de la del cursor [TEXTO]
+u	Deshacer el último cambio realizado
+:red	Rehace los cambios deshechos con ”u” o ”:u”
+x	Borrar un caracter (y ponerlo automaticamente en el ALMACEN)
+D	Borrar el resto de la linea (a la derecha del cursor)
+dw	Borrar una palabra (hasta el primer blanco a la dcha. del cursor)
+dd	Borrar la linea entera
+8x	Borrar 8 caracteres
+2dw	Borrar 2 palabras
+7dd	Borrar 7 lineas
+p	Poner el contenido del ALMACEN temporal después del cursor
+P	Poner el contenido del ALMACEN temporal antes del cursor
+s	Substituir un caracter por texto [TEXTO]
+15s	Substituir 15 caracteres por texto [TEXTO]
+r	Substituir un solo caracter por otro nuevo, sin entar
+en modo de TEXTO
+R	Sobreescribir [TEXTO]
+J	Unir la linea del cursor y la siguiente
+i[ENTER]	Romper una linea en dos
+.	Repetir el último cambio realizado
+yy	Poner la linea presente en el almacen temporal
+5yy	Poner cinco lineas en el almacen
+:w	Guardar en el fichero que se esta editando los cambios realizados
+(Aconsejable ejecuarlo de vez en cuando)
+:w!	Idem, forzandolo si fuese necesario. 
