@@ -1,0 +1,3 @@
+nsible es una plataforma de software libre que para configurar y administrar ordenadores. Ansible funciona conectándose a nodos y lanzando pequeños programas llamados módulos ansible. Ansible luego ejecuta estos módulos a través de SSH de forma predeterminada y luego los elimina cuando termina.
+
+Ansible también sirve para preparar la infraestructura subyacente del entorno, los hosts virtualizados y los hipervisores, los dispositivos de red y los servidores dedicados.
